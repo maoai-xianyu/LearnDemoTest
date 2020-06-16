@@ -6,7 +6,7 @@ import java.util.Stack;
  * @author zhangkun
  * @time 2020/6/15 11:54 上午
  *
- * 链表相关算法面试问题讲解-链表相减
+ * 单链表相关算法面试问题讲解
  * 删除单链表中指定数值的节点
  */
 public class ReadyTest02 {
