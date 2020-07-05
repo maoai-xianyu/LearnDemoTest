@@ -38,7 +38,7 @@ public class Main16 {
 
     public static void main(String[] args) {
 
-        String version1 = "1.1";
+        String version1 = "1.0";
         String version2 = "1.0.0";
 
         System.out.println("result  " + compareVersion(version1, version2));
@@ -50,9 +50,8 @@ public class Main16 {
     public static int compareVersion(String version1, String version2) {
 
 
-        String[] verArray1 = version1.split("\\.");
-        String[] verArray2 = version2.split("\\.");
-        /*
+        String[] verArray11 = version1.split("\\.");
+        String[] verArray22 = version2.split("\\.");
 
         int var1 = verArray11.length;
         int var2 = verArray22.length;
@@ -87,7 +86,7 @@ public class Main16 {
         } else {
             verArray1 = verArray11;
             verArray2 = verArray22;
-        }*/
+        }
 
 
         int index = 0;
